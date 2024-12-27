@@ -169,4 +169,9 @@ public class BirdShot : MonoBehaviour
         trajectoryLineRenderer.positionCount = numPoints;
         trajectoryLineRenderer.SetPositions(trajectoryPoints);
     }
+
+    // void OnCollisionEnter2D(Collision2D other)
+    // {
+    //     Debug.Log("새 충돌 감지" + other.gameObject.name);
+    // }
 }
