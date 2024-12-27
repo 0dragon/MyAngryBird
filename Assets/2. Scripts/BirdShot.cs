@@ -24,12 +24,16 @@ public class BirdShot : MonoBehaviour
     Collider2D birdCollider;
     List<GameObject> launchedBirds = new List<GameObject>();
     List<Button> birdButtons = new List<Button>();
-
+    
+    private StageManager stageManager;
+    private int currentBirdCount = 0;
+    
     public LineRenderer trajectoryLineRenderer;
     public float force;
 
     void Start()
     {
+        stageManager = FindObjectOfType<StageManager>();
         lineRenderers[0].positionCount = 2;
         lineRenderers[1].positionCount = 2;
         lineRenderers[0].SetPosition(0, stripPositions[0].position);
@@ -41,13 +45,22 @@ public class BirdShot : MonoBehaviour
 
     public void CreateBird()
     {
-        bird = Instantiate(birdPrefab).GetComponent<Rigidbody2D>();
-        birdCollider = bird.GetComponent<Collider2D>();
-        birdCollider.enabled = false;
+        if (currentBirdCount < stageManager.maxBirds)
+        {
+            bird = Instantiate(birdPrefab).GetComponent<Rigidbody2D>();
+            birdCollider = bird.GetComponent<Collider2D>();
+            birdCollider.enabled = false;
 
-        bird.isKinematic = true;
+            bird.isKinematic = true;
 
-        ResetStrips();
+            currentBirdCount++;
+            stageManager.DecreaseBirdCount();
+            ResetStrips();
+        }
+        else
+        {
+            Debug.Log("최대 발사 가능한 새의 개수에 도달했습니다.");
+        }
     }
 
     void Update()
@@ -94,7 +107,7 @@ public class BirdShot : MonoBehaviour
         bird.isKinematic = false;
         Vector3 birdForce = (currentPosition - center.position) * force * -1;
         bird.velocity = birdForce;
-
+        
         launchedBirds.Add(bird.gameObject);
         
         Invoke("DestroyLaunchedBird", 5f);
