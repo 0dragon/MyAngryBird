@@ -23,21 +23,21 @@ public class StageManager : MonoBehaviour
         switch (currentStage)
         {
             case 1:
-                maxBirds = 6;
+                maxBirds = 4;
                 break;
             case 2:
-                maxBirds = 6;
+                maxBirds = 4;
                 break;
             case 3:
                 maxBirds = 5;
                 break;
             default:
-                maxBirds = 6;
+                maxBirds = 4;
                 break;
         }
         currentBirds = maxBirds;
         UpdateBirdCountText();
-        Debug.Log("현재 스테이지: " + currentStage + "발사 가능한 새의 수: " + maxBirds);
+        Debug.Log("현재 스테이지: " + currentStage + " 발사 가능한 새의 수: " + maxBirds);
     }
 
     public void DecreaseBirdCount()

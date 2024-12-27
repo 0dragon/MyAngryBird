@@ -1275,11 +1275,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentStage: 1
-  maxBirds: 5
+  maxBirds: 4
   birdCountText: {fileID: 6057796879675270400}
   enemyCount: 2
   nextStageCanvas: {fileID: 2043481545836280757}
-  gameOverCanvas: {fileID: 0}
 --- !u!4 &1374249825
 Transform:
   m_ObjectHideFlags: 0
@@ -3841,7 +3840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 20
 --- !u!1 &2306656660969901873
 GameObject:
   m_ObjectHideFlags: 0
@@ -6342,7 +6341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!222 &5141964703126468788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7039,7 +7038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 30
 --- !u!114 &6057796879675270400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7173,7 +7172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!1 &6179488615874814841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7429,7 +7428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!61 &6452527894232988023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7487,7 +7486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!114 &6504952309858852993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7619,7 +7618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!1 &6567338167968520137
 GameObject:
   m_ObjectHideFlags: 0
@@ -8050,7 +8049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!224 &7072500773482109632
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9104,7 +9103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!212 &8217563269351526546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9475,7 +9474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  maxHp: 25
 --- !u!1 &8525286496192046696
 GameObject:
   m_ObjectHideFlags: 0

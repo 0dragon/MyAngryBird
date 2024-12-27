@@ -125,7 +125,7 @@ public class BirdShot : MonoBehaviour
         }
         else
         {
-            if (stageManager.enemyCount != null)
+            if (stageManager.enemyCount >= 0)
             {
                 stageManager.GameOver();
             }

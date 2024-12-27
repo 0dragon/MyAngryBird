@@ -22,7 +22,7 @@ public class Building : MonoBehaviour
             float impactSpeed = relativeVelocity.magnitude;
             
             int damage = Mathf.RoundToInt(impactSpeed);
-            Debug.Log("입은 데미지: " + damage);
+            // Debug.Log("입은 데미지: " + damage);
             Damage(damage);
         }
     }
@@ -30,7 +30,7 @@ public class Building : MonoBehaviour
     void Damage(int damage)
     {
         currentHp -= damage;
-        Debug.Log("HP 감소: " + currentHp);
+        // Debug.Log("HP 감소: " + currentHp);
         
         if (currentHp <= 0)
         {
