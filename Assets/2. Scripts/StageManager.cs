@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StageManager : MonoBehaviour
@@ -9,7 +10,8 @@ public class StageManager : MonoBehaviour
     public int maxBirds;
     private int currentBirds;
     public Text birdCountText;
-
+    public int enemyCount = 2;
+    public Canvas nextStageCanvas;
     void Start()
     {
         SetStage(currentStage);
@@ -21,16 +23,16 @@ public class StageManager : MonoBehaviour
         switch (currentStage)
         {
             case 1:
-                maxBirds = 5;
+                maxBirds = 6;
                 break;
             case 2:
-                maxBirds = 4;
+                maxBirds = 6;
                 break;
             case 3:
-                maxBirds = 3;
+                maxBirds = 5;
                 break;
             default:
-                maxBirds = 5;
+                maxBirds = 6;
                 break;
         }
         currentBirds = maxBirds;
@@ -50,5 +52,20 @@ public class StageManager : MonoBehaviour
     void UpdateBirdCountText()
     {
         birdCountText.text = "birdCount: " + currentBirds;
+    }
+
+    public void EnemyCount()
+    {
+        enemyCount--;
+        
+        if (enemyCount <= 0)
+        {
+            nextStageCanvas.gameObject.SetActive(true);
+        }
+    }
+
+    public void GameOver()
+    {
+        GetComponent<SceneLoader>().GameOver();
     }
 }

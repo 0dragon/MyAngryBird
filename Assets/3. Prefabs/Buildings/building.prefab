@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5383302462233973069}
   - component: {fileID: 4779436355189424408}
   - component: {fileID: 97563930744496127}
+  - component: {fileID: 7307842903659423459}
   - component: {fileID: 1703694370186760557}
-  - component: {fileID: 1851155963684049188}
   m_Layer: 10
   m_Name: Square_width
   m_TagString: Building
@@ -114,6 +114,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7307842903659423459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391983023670826686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &1703694370186760557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -159,19 +172,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &1851155963684049188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391983023670826686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &922170911754322355
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,8 +183,8 @@ GameObject:
   - component: {fileID: 1298955102692594309}
   - component: {fileID: 5665918843542384213}
   - component: {fileID: 2282543792476448886}
+  - component: {fileID: 3132758562267700282}
   - component: {fileID: 1957201875411410442}
-  - component: {fileID: 2247485997495251027}
   m_Layer: 10
   m_Name: Square_height (5)
   m_TagString: Building
@@ -286,6 +286,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3132758562267700282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922170911754322355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &1957201875411410442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -331,19 +344,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &2247485997495251027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922170911754322355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &1177767298170764419
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,8 +355,8 @@ GameObject:
   - component: {fileID: 5335837649268609182}
   - component: {fileID: 2156481829296215510}
   - component: {fileID: 8667906567719531502}
+  - component: {fileID: 5691134796756190639}
   - component: {fileID: 4345566237585459330}
-  - component: {fileID: 1146414194583375474}
   m_Layer: 10
   m_Name: Square_width (3)
   m_TagString: Building
@@ -458,6 +458,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5691134796756190639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177767298170764419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &4345566237585459330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -503,19 +516,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &1146414194583375474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177767298170764419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &1778932842355582112
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,8 +527,8 @@ GameObject:
   - component: {fileID: 2460574559504939306}
   - component: {fileID: 7692343298186022117}
   - component: {fileID: 6713205351930107093}
+  - component: {fileID: 7086492988682676421}
   - component: {fileID: 9056638332565865696}
-  - component: {fileID: 4765971873958181766}
   m_Layer: 10
   m_Name: Square_height (4)
   m_TagString: Building
@@ -630,6 +630,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7086492988682676421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778932842355582112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &9056638332565865696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -675,19 +688,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &4765971873958181766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778932842355582112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &1870960270501070224
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,8 +699,8 @@ GameObject:
   - component: {fileID: 4663706942787366586}
   - component: {fileID: 7162533451792981632}
   - component: {fileID: 4846401131729731082}
+  - component: {fileID: 4994434755651860124}
   - component: {fileID: 4002173314067502595}
-  - component: {fileID: 8540533141443795984}
   m_Layer: 10
   m_Name: Square_width (4)
   m_TagString: Building
@@ -802,6 +802,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4994434755651860124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870960270501070224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &4002173314067502595
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -847,19 +860,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &8540533141443795984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870960270501070224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &2001763763322295932
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,8 +871,8 @@ GameObject:
   - component: {fileID: 3737462447923609084}
   - component: {fileID: 5130870698196717019}
   - component: {fileID: 7563653349554886810}
+  - component: {fileID: 4709111623058353259}
   - component: {fileID: 2532028061378970801}
-  - component: {fileID: 1441671640925614058}
   m_Layer: 10
   m_Name: Square_width (5)
   m_TagString: Building
@@ -974,6 +974,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4709111623058353259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001763763322295932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &2532028061378970801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1019,19 +1032,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &1441671640925614058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001763763322295932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &2822866084449368295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,8 +1043,8 @@ GameObject:
   - component: {fileID: 9098653079582201753}
   - component: {fileID: 2756880183388192452}
   - component: {fileID: 5400210324559154805}
+  - component: {fileID: 514853205289761965}
   - component: {fileID: 1078220505450596434}
-  - component: {fileID: 714115127450382786}
   m_Layer: 10
   m_Name: Square_width (6)
   m_TagString: Building
@@ -1146,6 +1146,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &514853205289761965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822866084449368295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &1078220505450596434
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1191,19 +1204,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &714115127450382786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2822866084449368295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &3838527579377534018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1215,8 +1215,8 @@ GameObject:
   - component: {fileID: 7025298287852097640}
   - component: {fileID: 2652498980536214923}
   - component: {fileID: 8856247204284038156}
+  - component: {fileID: 4006576379656263797}
   - component: {fileID: 3962201979968320732}
-  - component: {fileID: 1104438310842095664}
   m_Layer: 10
   m_Name: Square_width (1)
   m_TagString: Building
@@ -1318,6 +1318,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4006576379656263797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838527579377534018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &3962201979968320732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1363,19 +1376,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &1104438310842095664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838527579377534018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &3900909631645141028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,8 +1387,8 @@ GameObject:
   - component: {fileID: 4996149126067183417}
   - component: {fileID: 8114240156682174129}
   - component: {fileID: 2010539554975858240}
+  - component: {fileID: 6287354754177818107}
   - component: {fileID: 77055333709959759}
-  - component: {fileID: 6658463370701991898}
   m_Layer: 10
   m_Name: Square_height (2)
   m_TagString: Building
@@ -1490,6 +1490,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6287354754177818107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3900909631645141028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &77055333709959759
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1535,19 +1548,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &6658463370701991898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3900909631645141028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &4311937756797834169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,8 +1637,8 @@ GameObject:
   - component: {fileID: 4850735574251944740}
   - component: {fileID: 1514977171034131371}
   - component: {fileID: 1403607417579368146}
+  - component: {fileID: 8950397807351732108}
   - component: {fileID: 6915054666978336851}
-  - component: {fileID: 4933617698955153418}
   m_Layer: 10
   m_Name: Triangle1 (1)
   m_TagString: Building
@@ -1740,6 +1740,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8950397807351732108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5693967087503171497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!60 &6915054666978336851
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1790,19 +1803,6 @@ PolygonCollider2D:
       - {x: 0.39999998, y: 0.06}
       - {x: -0.35, y: 0.81}
   m_UseDelaunayMesh: 0
---- !u!114 &4933617698955153418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5693967087503171497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &6285423329419763006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,8 +1814,8 @@ GameObject:
   - component: {fileID: 7923460884095835639}
   - component: {fileID: 1872013861551225308}
   - component: {fileID: 1415759928593399297}
+  - component: {fileID: 6748041884289720922}
   - component: {fileID: 2587782435145579282}
-  - component: {fileID: 4544692345547896521}
   m_Layer: 10
   m_Name: Circle (1)
   m_TagString: Building
@@ -1917,6 +1917,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6748041884289720922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6285423329419763006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!58 &2587782435145579282
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1952,19 +1965,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.375}
   serializedVersion: 2
   m_Radius: 0.38
---- !u!114 &4544692345547896521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6285423329419763006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &6319094763100309798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1976,8 +1976,8 @@ GameObject:
   - component: {fileID: 6939583887038165931}
   - component: {fileID: 4899845633970960324}
   - component: {fileID: 5880739056568801008}
+  - component: {fileID: 3343848596042285870}
   - component: {fileID: 986321007346774943}
-  - component: {fileID: 5217795909756477783}
   m_Layer: 10
   m_Name: Square_height (3)
   m_TagString: Building
@@ -2079,6 +2079,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3343848596042285870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319094763100309798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &986321007346774943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2124,19 +2137,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &5217795909756477783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6319094763100309798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &6494355474298058955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,8 +2148,8 @@ GameObject:
   - component: {fileID: 1839370022843080581}
   - component: {fileID: 594870010965554876}
   - component: {fileID: 2594489017675933041}
+  - component: {fileID: 4576917740805351902}
   - component: {fileID: 8341543881175470756}
-  - component: {fileID: 4914197663267674918}
   m_Layer: 10
   m_Name: Square_width (2)
   m_TagString: Building
@@ -2251,6 +2251,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4576917740805351902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6494355474298058955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!61 &8341543881175470756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2296,19 +2309,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.21}
   m_EdgeRadius: 0
---- !u!114 &4914197663267674918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6494355474298058955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &7774790683786800362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2320,8 +2320,8 @@ GameObject:
   - component: {fileID: 2192419241200878421}
   - component: {fileID: 5870250288020566256}
   - component: {fileID: 1067351106143997066}
+  - component: {fileID: 1932556299279667633}
   - component: {fileID: 7477567033273353633}
-  - component: {fileID: 2531488459906256549}
   m_Layer: 10
   m_Name: Triangle1
   m_TagString: Building
@@ -2423,6 +2423,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1932556299279667633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7774790683786800362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!60 &7477567033273353633
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2473,19 +2486,6 @@ PolygonCollider2D:
       - {x: 0.39999998, y: 0.06}
       - {x: -0.35, y: 0.81}
   m_UseDelaunayMesh: 0
---- !u!114 &2531488459906256549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7774790683786800362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2
 --- !u!1 &9114065955901358967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,8 +2497,8 @@ GameObject:
   - component: {fileID: 1264531759981314237}
   - component: {fileID: 4318889549549128664}
   - component: {fileID: 4961712157653884389}
+  - component: {fileID: 4363587367658638681}
   - component: {fileID: 1126195765939883058}
-  - component: {fileID: 644313847438784905}
   m_Layer: 10
   m_Name: Circle
   m_TagString: Building
@@ -2600,6 +2600,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4363587367658638681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9114065955901358967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44b556d298d1a4488f359173c0ce6f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 50
 --- !u!58 &1126195765939883058
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2635,16 +2648,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.375}
   serializedVersion: 2
   m_Radius: 0.38
---- !u!114 &644313847438784905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9114065955901358967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dc158a8557b5434cb5d97e9c4264de6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHp: 2

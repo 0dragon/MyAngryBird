@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Building : MonoBehaviour
 {
     public int maxHp = 50;
     private int currentHp;
@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Bird") || other.gameObject.CompareTag("Building"))
+        if (other.gameObject.CompareTag("Bird") || other.gameObject.CompareTag("Enemy"))
         {
             Vector2 relativeVelocity = other.relativeVelocity;
             float impactSpeed = relativeVelocity.magnitude;
@@ -44,6 +44,5 @@ public class Enemy : MonoBehaviour
         // animator.Play("Dead");
         // Invoke("Destroy(gameObject)", 2f);
         Destroy(gameObject);
-        stageManager.EnemyCount();
     }
 }

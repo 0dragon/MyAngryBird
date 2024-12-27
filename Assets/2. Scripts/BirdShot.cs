@@ -20,9 +20,9 @@ public class BirdShot : MonoBehaviour
     public GameObject birdPrefab;
     public float birdPositionOffset;
 
-    Rigidbody2D bird;
+    public Rigidbody2D bird;
     Collider2D birdCollider;
-    List<GameObject> launchedBirds = new List<GameObject>();
+    public List<GameObject> launchedBirds = new List<GameObject>();
     List<Button> birdButtons = new List<Button>();
     
     private StageManager stageManager;
@@ -53,8 +53,8 @@ public class BirdShot : MonoBehaviour
 
             bird.isKinematic = true;
 
-            currentBirdCount++;
-            stageManager.DecreaseBirdCount();
+            // currentBirdCount++;
+            // stageManager.DecreaseBirdCount();
             ResetStrips();
         }
         else
@@ -104,20 +104,32 @@ public class BirdShot : MonoBehaviour
 
     void Shoot()
     {
-        bird.isKinematic = false;
-        Vector3 birdForce = (currentPosition - center.position) * force * -1;
-        bird.velocity = birdForce;
-        
-        launchedBirds.Add(bird.gameObject);
-        
-        Invoke("DestroyLaunchedBird", 5f);
-        
-        bird = null;
-        birdCollider = null;
-        // Invoke("CreateBird", 2);
-        CreateBird();
-        
-        trajectoryLineRenderer.positionCount = 0;
+        if (currentBirdCount < stageManager.maxBirds)
+        {
+            bird.isKinematic = false;
+            Vector3 birdForce = (currentPosition - center.position) * force * -1;
+            bird.velocity = birdForce;
+            
+            launchedBirds.Add(bird.gameObject);
+            
+            Invoke("DestroyLaunchedBird", 5f);
+            
+            bird = null;
+            birdCollider = null;
+            // Invoke("CreateBird", 2);
+            CreateBird();
+            currentBirdCount++;
+            stageManager.DecreaseBirdCount();
+            
+            trajectoryLineRenderer.positionCount = 0;
+        }
+        else
+        {
+            if (stageManager.enemyCount != null)
+            {
+                stageManager.GameOver();
+            }
+        }
     }
 
     void DestroyLaunchedBird() {
