@@ -30,7 +30,8 @@ public class BirdShot : MonoBehaviour
     
     public LineRenderer trajectoryLineRenderer;
     public float force;
-
+    
+    
     void Start()
     {
         stageManager = FindObjectOfType<StageManager>();
@@ -108,6 +109,7 @@ public class BirdShot : MonoBehaviour
         {
             bird.isKinematic = false;
             Vector3 birdForce = (currentPosition - center.position) * force * -1;
+            
             bird.velocity = birdForce;
             
             launchedBirds.Add(bird.gameObject);
@@ -116,7 +118,6 @@ public class BirdShot : MonoBehaviour
             
             bird = null;
             birdCollider = null;
-            // Invoke("CreateBird", 2);
             CreateBird();
             currentBirdCount++;
             stageManager.DecreaseBirdCount();
@@ -203,9 +204,4 @@ public class BirdShot : MonoBehaviour
         trajectoryLineRenderer.positionCount = numPoints;
         trajectoryLineRenderer.SetPositions(trajectoryPoints);
     }
-
-    // void OnCollisionEnter2D(Collision2D other)
-    // {
-    //     Debug.Log("새 충돌 감지" + other.gameObject.name);
-    // }
 }
