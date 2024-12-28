@@ -12,27 +12,34 @@ public class StageManager : MonoBehaviour
     public Text birdCountText;
     public int enemyCount = 2;
     public Canvas nextStageCanvas;
+    private SoundManager soundManager;
+    
     void Start()
     {
+        SoundManager.FindObjectOfType<SoundManager>();
         SetStage(currentStage);
     }
 
     public void SetStage(int stage)
     {
-        currentStage = stage;
-        switch (currentStage)
+        // currentStage = stage;
+        switch (stage)
         {
             case 1:
                 maxBirds = 4;
+                // soundManager.PlayBackgroundMusic(soundManager.stage1Music);
                 break;
             case 2:
                 maxBirds = 4;
+                // soundManager.PlayBackgroundMusic(soundManager.stage2Music);
                 break;
             case 3:
                 maxBirds = 5;
+                // soundManager.PlayBackgroundMusic(soundManager.stage3Music);
                 break;
             default:
                 maxBirds = 4;
+                // soundManager.PlayBackgroundMusic(soundManager.menuMusic);
                 break;
         }
         currentBirds = maxBirds;
@@ -61,9 +68,10 @@ public class StageManager : MonoBehaviour
         if (enemyCount <= 0)
         {
             nextStageCanvas.gameObject.SetActive(true);
+            // soundManager.PlayStageClearSound();
         }
     }
-
+    
     public void GameOver()
     {
         GetComponent<SceneLoader>().GameOver();

@@ -7,10 +7,14 @@ public class Enemy : MonoBehaviour
     public int maxHp = 50;
     private int currentHp;
     private StageManager stageManager;
+    private SoundManager soundManager;
+    private AudioSource audioSource;
     
     void Start()
     {
+        soundManager = FindObjectOfType<SoundManager>();
         stageManager = FindObjectOfType<StageManager>();
+        audioSource = GetComponent<AudioSource>();
         currentHp = maxHp;
     }
 
@@ -40,9 +44,7 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        // Animator animator = GetComponent<Animator>();
-        // animator.Play("Dead");
-        // Invoke("Destroy(gameObject)", 2f);
+        AudioSource.PlayClipAtPoint(soundManager.enemyDestroySound, transform.position, 5.0f);
         Destroy(gameObject);
         stageManager.EnemyCount();
     }

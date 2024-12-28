@@ -132,6 +132,15 @@ public class BirdShot : MonoBehaviour
         }
     }
 
+    // public void GameOverCheck()
+    // {
+    //     if (currentBirdCount >= stageManager.maxBirds && stageManager.enemyCount > 0)
+    //     {
+    //         stageManager.GameOver();
+    //     }
+    // } 
+    
+
     void DestroyLaunchedBird() {
         if (launchedBirds.Count > 0) {
             GameObject birdToDestroy = launchedBirds[0];
