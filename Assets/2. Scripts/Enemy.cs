@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     private SoundManager soundManager;
     private AudioSource audioSource;
     
+    public GameObject destroyEffectPrefab;
+    
     void Start()
     {
         soundManager = FindObjectOfType<SoundManager>();
@@ -45,6 +47,8 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         AudioSource.PlayClipAtPoint(soundManager.enemyDestroySound, transform.position, 5.0f);
+        Instantiate(destroyEffectPrefab, transform.position, Quaternion.identity);
+        
         Destroy(gameObject);
         stageManager.EnemyCount();
     }

@@ -1998,6 +1998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &529233292
 Rigidbody2D:
   serializedVersion: 4
@@ -2441,6 +2442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &614904241
 Rigidbody2D:
   serializedVersion: 4
@@ -2699,6 +2701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &668224239
 Rigidbody2D:
   serializedVersion: 4
@@ -3257,6 +3260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 8439474311867867205, guid: 70cefa013e9e39c44ba71558e2a0c66a, type: 3}
 --- !u!60 &899894334
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3537,6 +3541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &921615465
 Rigidbody2D:
   serializedVersion: 4
@@ -4046,6 +4051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 8439474311867867205, guid: 70cefa013e9e39c44ba71558e2a0c66a, type: 3}
 --- !u!60 &1005088319
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4410,6 +4416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &1094881276
 Rigidbody2D:
   serializedVersion: 4
@@ -6455,6 +6462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &1661388819
 Rigidbody2D:
   serializedVersion: 4
@@ -6627,6 +6635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &1672959012
 Rigidbody2D:
   serializedVersion: 4
@@ -8058,6 +8067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!4 &659577064414257123
 Transform:
   m_ObjectHideFlags: 0
@@ -8972,6 +8982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!212 &1524989666694845749
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9222,6 +9233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!4 &1880507600283610534
 Transform:
   m_ObjectHideFlags: 0
@@ -9364,6 +9376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!4 &1988864527359877032
 Transform:
   m_ObjectHideFlags: 0
@@ -9534,6 +9547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!61 &2090844570099481971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9842,6 +9856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 8439474311867867205, guid: 70cefa013e9e39c44ba71558e2a0c66a, type: 3}
 --- !u!212 &2283189731476649246
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10138,6 +10153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!61 &2627890746592797474
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10731,6 +10747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!4 &3227199537894818189
 Transform:
   m_ObjectHideFlags: 0
@@ -11010,6 +11027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &3433463321200255270
 GameObject:
   m_ObjectHideFlags: 0
@@ -11267,6 +11285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!224 &3506589343897147869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11720,6 +11739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!114 &3955499417423598982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11733,6 +11753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &3966213559845967996
 GameObject:
   m_ObjectHideFlags: 0
@@ -11942,6 +11963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &4054889775145861428
 Rigidbody2D:
   serializedVersion: 4
@@ -11982,6 +12004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &4079508841280604377
 Rigidbody2D:
   serializedVersion: 4
@@ -12067,6 +12090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!4 &4282048564684768012
 Transform:
   m_ObjectHideFlags: 0
@@ -12119,6 +12143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!114 &4437465435942925839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12132,6 +12157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &4516877155628258808
 GameObject:
   m_ObjectHideFlags: 0
@@ -12244,6 +12270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!114 &4637747968632766324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12257,6 +12284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &4673557195231792492
 Rigidbody2D:
   serializedVersion: 4
@@ -12703,6 +12731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &4956485091757729823
 GameObject:
   m_ObjectHideFlags: 0
@@ -12785,6 +12814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &5319351752902807018
 GameObject:
   m_ObjectHideFlags: 0
@@ -12818,6 +12848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!61 &5421651488272882155
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13211,6 +13242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &5650367576266914135
 GameObject:
   m_ObjectHideFlags: 0
@@ -13451,6 +13483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!114 &5802637322204788828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13783,6 +13816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &5958445521517608339
 GameObject:
   m_ObjectHideFlags: 0
@@ -13879,6 +13913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 8439474311867867205, guid: 70cefa013e9e39c44ba71558e2a0c66a, type: 3}
 --- !u!4 &6001722806417791899
 Transform:
   m_ObjectHideFlags: 0
@@ -13927,6 +13962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!212 &6067187950807143543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14162,6 +14198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &6280618440487856324
 Rigidbody2D:
   serializedVersion: 4
@@ -14590,6 +14627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &6479495732484547479
 Rigidbody2D:
   serializedVersion: 4
@@ -14875,6 +14913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!212 &6724952806491462516
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15097,6 +15136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!212 &7016356386854355921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15214,6 +15254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &7105824484355587454
 GameObject:
   m_ObjectHideFlags: 0
@@ -16252,6 +16293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!95 &8077486733184364807
 Animator:
   serializedVersion: 5
@@ -16442,6 +16484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!212 &8217563269351526546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16594,6 +16637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!4 &8339801324603737738
 Transform:
   m_ObjectHideFlags: 0
@@ -16687,6 +16731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!1 &8469753610623744028
 GameObject:
   m_ObjectHideFlags: 0
@@ -16787,6 +16832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 20
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!61 &8550784278150263784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17127,6 +17173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 30
+  destroyEffectPrefab: {fileID: 1291816444977769462, guid: 595e3a28128b53c4a898153c318efd05, type: 3}
 --- !u!50 &8864712978139721147
 Rigidbody2D:
   serializedVersion: 4

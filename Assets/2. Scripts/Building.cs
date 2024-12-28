@@ -9,6 +9,7 @@ public class Building : MonoBehaviour
     private StageManager stageManager;
     private SoundManager soundManager;
     private AudioSource audioSource;
+    public GameObject destroyEffectPrefab;
     
     void Start()
     {
@@ -45,6 +46,8 @@ public class Building : MonoBehaviour
     void Die()
     {
         AudioSource.PlayClipAtPoint(soundManager.enemyDestroySound, transform.position, 5.0f);
+        Instantiate(destroyEffectPrefab, transform.position, Quaternion.identity);
+        
         Destroy(gameObject);
     }
 }
